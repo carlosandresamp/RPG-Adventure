@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* TÍTULO DA TELA INICIAL */
+h1{
+  color: rgb(0, 0, 0);
+}
+
+button{
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3mm;
+  margin: 10px;
+}
+
+button:hover{
+
+}
+
+#choices{
+  margin-bottom: 15px;
+}
+
+/* BOTÃO DE DAR PLAY E PAUSE NA MÚSICA */
+#musicButton {
+  background-color: #007bff; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  border: none; /* Sem borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+}
+
+#musicButton:hover {
+  background-color: #0056b3; /* Cor de fundo mais escura ao passar por cima */
+}
+
+#musicButton:active {
+  background-color: #00499e; /* Cor de fundo ainda mais escura quando pressionado */
+}
+
