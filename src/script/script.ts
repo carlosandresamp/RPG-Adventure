@@ -27,8 +27,8 @@ const storyParts: StoryPart[] = [
     {
         text: 'Qual dos caminhos deseja seguir?', //PART 0
         choices: [
-            { text: 'Ruínas Antigas', nextPart: 1 },
-            { text: 'Clareiras Iluminadas', nextPart: 2 }
+            { text: 'Parte 1: Ruínas Antigas', nextPart: 1 },
+            { text: 'Parte 2: Clareiras Iluminadas', nextPart: 2 }
         ]
     },
     {
