@@ -13,6 +13,12 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.personagen {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
 /* TÍTULO DA TELA INICIAL */
 h1{
   color: rgb(0, 0, 0);
@@ -33,7 +39,7 @@ button{
   transition: all .3s ease;
   
   &:hover{
-    background-color: #0069d9;
+    background-color: #003c7c;
   }
 }
 
@@ -43,20 +49,35 @@ button{
 
 /* BOTÃO DE DAR PLAY E PAUSE NA MÚSICA */
 #musicButton {
+  width: 65px;
   background-color: #007bff; /* Cor de fundo azul */
   color: white; /* Cor do texto branco */
   border: none; /* Sem borda */
   padding: 10px 20px; /* Espaçamento interno */
   font-size: 16px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 10mm; /* Bordas arredondadas */
   cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+  margin-left: 700px; /* Posicionando o botão a direita na tela */
 }
 
 #musicButton:hover {
-  background-color: #0056b3; /* Cor de fundo mais escura ao passar por cima */
+  background-color: #003c7c; /* Cor de fundo mais escura ao passar por cima */
 }
 
-#musicButton:active {
-  background-color: #00499e; /* Cor de fundo ainda mais escura quando pressionado */
+/* BOTÃO DE REINICIAR O JOGO */
+#restartButton {
+  width: 100px;
+  background-color: #fa0000; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  border: none; /* Sem borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border-radius: 10mm; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+  margin-left: 685px; /* Posicionando o botão a direita na tela */
+}
+
+#restartButton:hover {
+  background-color: #7c0000; /* Cor de fundo mais escura ao passar por cima */
 }
 

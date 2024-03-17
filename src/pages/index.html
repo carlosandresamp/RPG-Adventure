@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A AVENTURA VAI COMEÇAR!</title>
-<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style="background-image: url('../media/img/florest1.png'); background-size: cover;">
+
+<body style="background-image: url('../media/img/background.gif'); background-size: cover;">
     <div class="container">
         <h1>A AVENTURA VAI COMEÇAR!</h1>
         <p id="story"></p>
         <div id="choices"></div>
-        <button id="restartButton" style="display: none;">Jogar Novamente</button>
-        <button id="musicButton">Configurar Música</button>
+        <button id="restartButton" style="display: block;">Reiniciar</button>
+        <button id="musicButton">🎵</button>
     </div>
+    <div class="personagen"><img src="../media/img/personagen.gif" alt=""></div>
     <audio id="backgroundMusic" loop autoplay>
         <source src="../media/sound/background_sound.mp3" type="audio/mpeg">
     </audio>
     <script src="../script/script.js"></script>
 </body>
+
 </html>
