@@ -86,3 +86,10 @@ button:hover {
 #restartButton:hover {
   background-color: #7c0000; /* Cor de fundo mais escura ao passar por cima */
 }
+
+/* Define o estilo para a imagem da capa do jogo */
+.capa {
+  padding: 50px;
+  margin-top: -400px;
+  margin-left: 50px;
+}
