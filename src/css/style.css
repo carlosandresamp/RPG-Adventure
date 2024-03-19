@@ -1,51 +1,57 @@
+/* Define o estilo básico para o corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /* Define a família de fontes */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o preenchimento padrão */
 }
 
+/* Define o estilo para o container principal */
 .container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Largura máxima do container */
+  margin: 20px auto; /* Margem automática nas laterais e 20px em cima e embaixo */
+  padding: 20px; /* Preenchimento interno */
+  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
+/* Define o estilo para a imagem do personagem */
 .personagen {
-  width: 150px;
-  position: absolute;
-  bottom: 0;
+  width: 150px; /* Largura da imagem */
+  position: absolute; /* Posição absoluta */
+  bottom: 0; /* Alinha a imagem na parte inferior */
 }
 
-/* TÍTULO DA TELA INICIAL */
-h1{
-  color: rgb(0, 0, 0);
+/* Estilos para o título principal */
+h1 {
+  color: rgb(0, 0, 0); /* Cor do texto preto */
 }
 
-button{
-  width: 30%;
-  height: 45px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5mm;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-
-  cursor: pointer;
-  transition: all .3s ease;
-  
-  &:hover{
-    background-color: #003c7c;
-  }
+/* Estilos para os botões */
+button {
+  width: 30%; /* Largura do botão */
+  height: 45px; /* Altura do botão */
+  background-color: #007bff; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  border: none; /* Sem borda */
+  border-radius: 5mm; /* Bordas arredondadas */
+  margin: 10px; /* Margem externa */
+  display: flex; /* Exibir como flexível */
+  align-items: center; /* Alinhar itens ao centro */
+  cursor: pointer; /* Cursor de ponteiro */
+  transition: all .3s ease; /* Transição suave de propriedades */
 }
 
-#choices{
-  margin-bottom: 15px;
+/* Estilos para os botões quando o mouse passa por cima */
+button:hover {
+  background-color: #003c7c; /* Cor de fundo mais escura ao passar por cima */
 }
+
+/* Estilos para as escolhas */
+#choices {
+  margin-bottom: 15px; /* Margem inferior */
+}
+
 
 /* BOTÃO DE DAR PLAY E PAUSE NA MÚSICA */
 #musicButton {
@@ -80,4 +86,3 @@ button{
 #restartButton:hover {
   background-color: #7c0000; /* Cor de fundo mais escura ao passar por cima */
 }
-

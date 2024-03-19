@@ -4,22 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A AVENTURA VAI COMEÇAR!</title>
+    <title>A BUSCA PELO ARTEFATO MÁGICO</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
+    <!-- Define o corpo da página, nesse caso composto pela imagem do fundo -->
 <body style="background-image: url('../media/img/background.gif'); background-size: cover;">
+    
+
+    <!-- Container principal -->
     <div class="container">
+        <!-- Título principal -->
         <h1>A AVENTURA VAI COMEÇAR!</h1>
+        <!-- Parágrafo para mostrar a história -->
         <p id="story"></p>
+        <!-- Div para mostrar as escolhas disponíveis -->
         <div id="choices"></div>
+        <!-- Botão para reiniciar o jogo -->
         <button id="restartButton" style="display: block;">Reiniciar</button>
+        <!-- Botão para controlar a música de fundo -->
         <button id="musicButton">🎵</button>
     </div>
+
+    <!-- Div para mostrar a imagem do personagem -->
     <div class="personagen"><img src="../media/img/personagen.gif" alt=""></div>
+
+    <!-- Elemento de áudio para a música de fundo -->
     <audio id="backgroundMusic" loop autoplay>
+        <!-- Define a fonte do áudio -->
         <source src="../media/sound/background_sound.mp3" type="audio/mpeg">
     </audio>
+
+    <!-- Importa o arquivo de script JavaScript -->
     <script src="../script/script.js"></script>
 </body>
 
