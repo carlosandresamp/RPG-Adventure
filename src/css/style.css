@@ -1,95 +1,146 @@
 /* Define o estilo básico para o corpo da página */
 body {
-  font-family: Arial, sans-serif; /* Define a família de fontes */
-  margin: 0; /* Remove as margens padrão */
-  padding: 0; /* Remove o preenchimento padrão */
+  font-family: Arial, sans-serif;
+  /* Define a família de fontes */
+  margin: 0;
+  /* Remove as margens padrão */
+  padding: 0;
+  /* Remove o preenchimento padrão */
 }
 
 /* Define o estilo para o container principal */
 .container {
-  max-width: 800px; /* Largura máxima do container */
-  margin: 20px auto; /* Margem automática nas laterais e 20px em cima e embaixo */
-  padding: 20px; /* Preenchimento interno */
-  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
-  border-radius: 5px; /* Borda arredondada */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  max-width: 800px;
+  /* Largura máxima do container */
+  margin: 20px auto;
+  /* Margem automática nas laterais e 20px em cima e embaixo */
+  padding: 20px;
+  /* Preenchimento interno */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cor de fundo com transparência */
+  border-radius: 5px;
+  /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Sombra leve */
 }
 
 /* Define o estilo para a imagem do personagem */
 .personagen {
-  width: 150px; /* Largura da imagem */
-  position: absolute; /* Posição absoluta */
-  bottom: 0; /* Alinha a imagem na parte inferior */
+  width: 150px;
+  /* Largura da imagem */
+  position: absolute;
+  /* Posição absoluta */
+  bottom: 0;
+  /* Alinha a imagem na parte inferior */
 }
 
 /* Estilos para o título principal */
 h1 {
-  color: rgb(0, 0, 0); /* Cor do texto preto */
+  color: rgb(0, 0, 0);
+  /* Cor do texto preto */
 }
 
 /* Estilos para os botões */
 button {
-  width: 30%; /* Largura do botão */
-  height: 45px; /* Altura do botão */
-  background-color: #007bff; /* Cor de fundo azul */
-  color: white; /* Cor do texto branco */
-  border: none; /* Sem borda */
-  border-radius: 5mm; /* Bordas arredondadas */
-  margin: 10px; /* Margem externa */
-  display: flex; /* Exibir como flexível */
-  align-items: center; /* Alinhar itens ao centro */
-  cursor: pointer; /* Cursor de ponteiro */
-  transition: all .3s ease; /* Transição suave de propriedades */
+  width: 30%;
+  /* Largura do botão */
+  height: 45px;
+  /* Altura do botão */
+  background-color: #007bff;
+  /* Cor de fundo azul */
+  color: white;
+  /* Cor do texto branco */
+  border: none;
+  /* Sem borda */
+  border-radius: 5mm;
+  /* Bordas arredondadas */
+  margin: 10px;
+  /* Margem externa */
+  display: flex;
+  /* Exibir como flexível */
+  align-items: center;
+  /* Alinhar itens ao centro */
+  cursor: pointer;
+  /* Cursor de ponteiro */
+  transition: all .3s ease;
+  /* Transição suave de propriedades */
 }
 
 /* Estilos para os botões quando o mouse passa por cima */
 button:hover {
-  background-color: #003c7c; /* Cor de fundo mais escura ao passar por cima */
+  background-color: #003c7c;
+  /* Cor de fundo mais escura ao passar por cima */
 }
 
 /* Estilos para as escolhas */
 #choices {
-  margin-bottom: 15px; /* Margem inferior */
+  margin-bottom: 15px;
+  /* Margem inferior */
 }
 
 
 /* BOTÃO DE DAR PLAY E PAUSE NA MÚSICA */
 #musicButton {
   width: 65px;
-  background-color: #007bff; /* Cor de fundo azul */
-  color: white; /* Cor do texto branco */
-  border: none; /* Sem borda */
-  padding: 10px 20px; /* Espaçamento interno */
-  font-size: 16px; /* Tamanho da fonte */
-  border-radius: 10mm; /* Bordas arredondadas */
-  cursor: pointer; /* Cursor de ponteiro ao passar por cima */
-  margin-left: 700px; /* Posicionando o botão a direita na tela */
+  background-color: #007bff;
+  /* Cor de fundo azul */
+  color: white;
+  /* Cor do texto branco */
+  border: none;
+  /* Sem borda */
+  padding: 10px 20px;
+  /* Espaçamento interno */
+  font-size: 16px;
+  /* Tamanho da fonte */
+  border-radius: 10mm;
+  /* Bordas arredondadas */
+  cursor: pointer;
+  /* Cursor de ponteiro ao passar por cima */
+  margin-left: 700px;
+  /* Posicionando o botão a direita na tela */
 }
 
 #musicButton:hover {
-  background-color: #003c7c; /* Cor de fundo mais escura ao passar por cima */
+  background-color: #003c7c;
+  /* Cor de fundo mais escura ao passar por cima */
 }
 
 /* BOTÃO DE REINICIAR O JOGO */
 #restartButton {
   width: 100px;
-  background-color: #fa0000; /* Cor de fundo azul */
-  color: white; /* Cor do texto branco */
-  border: none; /* Sem borda */
-  padding: 10px 20px; /* Espaçamento interno */
-  font-size: 16px; /* Tamanho da fonte */
-  border-radius: 10mm; /* Bordas arredondadas */
-  cursor: pointer; /* Cursor de ponteiro ao passar por cima */
-  margin-left: 685px; /* Posicionando o botão a direita na tela */
+  background-color: #fa0000;
+  /* Cor de fundo azul */
+  color: white;
+  /* Cor do texto branco */
+  border: none;
+  /* Sem borda */
+  padding: 10px 20px;
+  /* Espaçamento interno */
+  font-size: 16px;
+  /* Tamanho da fonte */
+  border-radius: 10mm;
+  /* Bordas arredondadas */
+  cursor: pointer;
+  /* Cursor de ponteiro ao passar por cima */
+  margin-left: 685px;
+  /* Posicionando o botão a direita na tela */
 }
 
 #restartButton:hover {
-  background-color: #7c0000; /* Cor de fundo mais escura ao passar por cima */
+  background-color: #7c0000;
+  /* Cor de fundo mais escura ao passar por cima */
 }
 
 /* Define o estilo para a imagem da capa do jogo */
 .capa {
-  padding: 50px;
-  margin-top: -400px;
-  margin-left: 50px;
+  display: flex;
+  padding: 40px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.capa img {
+  border: #003c7c solid 3px;
+  border-radius: 4mm;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
