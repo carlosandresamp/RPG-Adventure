@@ -133,13 +133,13 @@ button:hover {
 
 /* Define o estilo para a imagem da capa do jogo */
 .capa {
-  display: flex;
-  padding: 40px;
+  padding: 25px;
   position: absolute;
   margin-top: 50px;
 }
 
 .capa img {
+  width: 200px;
   border: #003c7c solid 3px;
   border-radius: 4mm;
   box-shadow: 0 0 10px rgb(255, 255, 255);
